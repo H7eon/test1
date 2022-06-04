@@ -161,7 +161,7 @@ kill 명령어는 대개 **프로세스를 죽일 때** 사용한다. 하지만 
 
 >>>ps ax|grep httpd|awk’{print$1}‘|xargs kill 또는 kill –9 ‘ps-ef|grep httpd|grep –v grep|awk’{print$1}‘’
 
-# 기본적인 매크로 사용 방법
+# 5. 기본적인 매크로 사용 방법
 
 **커맨드 모드 (esc 누른 상태) 에서**
 1. 'q' 를 누르고 a~z 사이 문자로 매크로 recording 시작
